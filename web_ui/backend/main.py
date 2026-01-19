@@ -1,9 +1,12 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .api import router
 from .rag_service import initialize_rag
 
-app = FastAPI(title="RAG-Anything API")
+app = FastAPI(title="Research Portal API")
 
 # CORS
 app.add_middleware(

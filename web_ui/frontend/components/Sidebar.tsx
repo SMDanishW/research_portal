@@ -45,7 +45,7 @@ export default function Sidebar({ onFileSelect }: SidebarProps) {
     return (
         <div className="w-64 bg-gray-800 border-r border-gray-700 p-4 flex flex-col h-full">
             <div className="mb-8">
-                <h1 className="text-xl font-bold text-blue-400 mb-2">RAG-Anything</h1>
+                <h1 className="text-xl font-bold text-blue-400 mb-2">Research Portal</h1>
                 <p className="text-xs text-gray-400">Multimodal Document Assistant</p>
             </div>
 
